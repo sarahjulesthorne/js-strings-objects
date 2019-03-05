@@ -20,3 +20,14 @@ selectedDiv.innerHTML += `<p>${textToPrint}</p>`;
 printToDom('age-recommendations', iAmThirsty(17));
 printToDom('age-recommendations', iAmThirsty(37));
 printToDom('age-recommendations', iAmThirsty(77));
+console.log(1 === '1');
+console.log(1 == '1');
+console.log(1 !== "2");
+console.log('cats'.length);
+//checks number of characters in string, including spaces
+const quote = 'winter is coming';
+console.log(quote.indexOf('is'));
+//returns -1 when does not find the value
+
+
+//tells the index of the start of the string
